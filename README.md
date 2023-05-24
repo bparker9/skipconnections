@@ -1,1 +1,3 @@
-# skipconnections
+## Using Skip Connections to Eliminate Singularities
+
+In this paper, we discuss the phenomenon of singularities in the parameter space of multi-layer perceptrons, and how these singular points affect optimization by stochastic gradient descent. Moreover, we provide rationale for the use of skip connections as a remedy for singularities of the gradient, allowing for successful training convergence of deeper neural networks. To demonstrate this premise, we train two neural networks on the CIFAR-10 dataset, one convoluational neural network and one residual neural network. In the results, we observe the improvement in model fit and test set accuracy with the residual neural network compared with the CNN.
